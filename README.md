@@ -2,7 +2,7 @@
 
 I've chosen to implement a NFA Simulator in Python which would take in the description of an NFA and a string, then return whether or not the string is in the language of the NFA.
 
-Input should be formatted as such:
+Input should be formatted as such:<br/>
 // Start State<br/>
 A
 
