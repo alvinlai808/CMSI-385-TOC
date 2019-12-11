@@ -3,13 +3,17 @@
 I've chosen to implement a NFA Simulator in Python which would take in the description of an NFA and a string, then return whether or not the string is in the language of the NFA.
 
 Input should be formatted as such:
+// Start State
+A
 
-START=q0;ACCEPT=q2,q1
+// Accept States
+A B
 
-q0:a->q1
+// Transitions (as 3-tuples)
+A 0 B
+A 1 A
+B 1 A
+*enter blank line to indicate end of input*
 
-q0:a->q2
-
-q0->q2
-
-q0:a->q0
+// String to test
+1001
